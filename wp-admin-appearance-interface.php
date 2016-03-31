@@ -31,7 +31,7 @@ abstract class WP_Admin_Appearance_Interface extends WP_Admin_Interface
 		}
 
 		if (isset($args['action'])) {
-			$url .= '&' . $this->id . '_action=' . $args['display'];
+			$url .= '&' . $this->id . '_action=' . $args['action'];
 		}
 
 		return $url;
